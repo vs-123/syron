@@ -1,0 +1,16 @@
+[package]
+name = "syron"
+version = "0.1.1"
+edition = "2021"
+readme = "README.md"
+repository = "https://github.com/vs-123/syron"
+documentation = "https://docs.rs/syron/0.1.0/syron/"
+license = "MIT OR Apache-2.0"
+keywords = ["neural-network", "machine-learning", "scientific", "syron"]
+categories = ["development-tools::debuggings"]
+homepage = "https://github.com/vs-123/syron"
+description = "Syron is a Rust library for building, training and running basic neural networks"
+
+[dependencies]
+ndarray = "0.15.0"
+ndarray-rand = "0.14.0"
